@@ -1,102 +1,106 @@
 # README
 
 ## Introduction
-This project focuses on compressing hyperspectral images using Huffman coding, error correction with Hamming (7,4) code, and error detection using CRC (Cyclic Redundancy Check). The project integrates various components to achieve high compression rates while maintaining low error rates.
+This project is focused on compressing hyperspectral images using Huffman coding for efficient compression, Hamming (7,4) for error correction, and CRC (Cyclic Redundancy Check) for error detection. The system integrates these coding methods to achieve a high compression ratio while maintaining minimal error rates. The final implementation includes a GUI for easy interaction and visualization.
 
-## Features
-- **Hyperspectral Image Compression**:
-  - Uses Huffman coding for efficient compression.
-  - Supports loading the `92AV3C.lan` hyperspectral image or creating custom 3D random images.
-- **Error Correction and Detection**:
-  - Implements Hamming (7,4) for error correction.
-  - Optionally uses CRC for error detection.
-- **Error Analysis**:
-  - Calculates BER (Bit Error Rate) before and after error correction.
-  - Visualizes comparisons between the original, compressed, and reconstructed images.
-- **Performance Optimization**:
-  - Achieves computational performance within 216 nanoseconds per pixel.
-- **Customizability**:
-  - Choose whether to use CRC.
-  - Generate random test images with adjustable dimensions.
-- **Graphical User Interface (GUI)**:
-  - Simplifies user interaction and visualization of results.
-
-## Installation
+## How to Run the Project
 
 ### Prerequisites
 - Python 3.9+
 - Required libraries:
-  - `numpy`
-  - `matplotlib`
-  - `spectral`
-  - `tkinter`
+  - numpy
+  - matplotlib
+  - spectral
+  - tkinter
+  - tabulate
 
-Install dependencies via pip:
+Install dependencies using pip:
 ```bash
-pip install numpy matplotlib spectral
+pip install numpy matplotlib spectral tabulate
 ```
 
-### Clone the Repository
+### Running the Code
+1. Clone the repository:
 ```bash
 git clone <repository-url>
 cd <repository-folder>
 ```
-
-## Usage
-
-### Running the Project
-1. Load the hyperspectral image `92AV3C.lan` or generate a custom random image.
-2. Configure the compression and error detection settings via the GUI or terminal prompts.
-3. View the results including BER, compression ratio, and image visualizations.
-
-Run the main script:
+2. Run the `main.py` file:
 ```bash
 python main.py
 ```
+3. Use the GUI to:
+   - Load the hyperspectral image `92AV3C.lan` or create a custom 3D random image.
+   - Select CRC usage (`YES` or `NO`).
+   - Input the desired error rate.
+   - Click `Run Process` to start the compression and decoding process.
 
-### GUI Options
-- **Load Image**: Load the default hyperspectral image or create a random 3D image.
-- **Compression Settings**: Enable or disable CRC for error detection.
-- **Visualizations**: View side-by-side comparisons of original, compressed, and reconstructed images.
+## Code Explanation
 
-## File Structure
-```
-├── main.py                 # Entry point of the project
-├── huffman.py              # Huffman encoding and decoding functions
-├── hamming.py              # Hamming (7,4) encoding and decoding functions
-├── crc.py                  # CRC encoding and checking functions
-├── gui.py                  # GUI implementation
-├── utils.py                # Helper functions
-├── README.md               # Project documentation
-└── requirements.txt        # Dependencies
-```
+### Imports and Constants
+- `numpy`, `warnings`, `random`, `time`: For numerical operations, warnings, randomness, and timing.
+- `matplotlib.pyplot`, `spectral`: For visualization and hyperspectral image handling.
+- `tkinter`, `tabulate`: For the GUI and results display.
+- **Constants**:
+  - `CRC_POLY` and `CRC_BITS`: Define the polynomial and bit length for CRC.
+  - `G` and `H`: Matrices for Hamming (7,4) encoding and decoding.
 
-## Examples
+### Core Functions
 
-### Example 1: Compress and Decompress an Image
-1. Load the `92AV3C.lan` image.
-2. Compress the image using Huffman coding.
-3. Correct errors using Hamming (7,4) and CRC.
-4. Reconstruct the image and compare the original vs. reconstructed version.
+#### CRC Functions
+- `crc_encode(data)`: Appends CRC bits to the input data for error detection.
+- `crc_check(data)`: Validates the integrity of data using the CRC polynomial.
 
-### Example 2: Analyze BER and Compression Ratio
-- Inject random errors into the compressed data.
-- Measure BER before and after Hamming correction.
-- Calculate the compression ratio achieved.
+#### Hamming Functions
+- `hamming_encode_vectorized(bitstring)`: Encodes data using the Hamming (7,4) code.
+- `hamming_decode_7bit(received_block)`: Decodes a 7-bit block and corrects single-bit errors.
 
-## Performance
-This project achieves an average processing time of **216 nanoseconds per pixel**, meeting the required computational efficiency.
+#### Combined CRC and Hamming
+- `crc_hamming_encode(bitstring)`: Combines CRC and Hamming encoding.
+- `crc_hamming_decode_and_validate(received_bitstring)`: Decodes and validates blocks using CRC and Hamming.
 
-## Contributing
-1. Fork the repository.
-2. Create a feature branch.
-3. Commit your changes.
-4. Open a pull request.
+#### Error Injection
+- `introduce_errors(encoded_bitstring, error_rate)`: Simulates random bit errors in the encoded data.
 
-## License
-This project is licensed under the MIT License. See the `LICENSE` file for details.
+#### BER Calculation
+- `Calculate_Ber_NO_CRC(original, received)`: Computes the Bit Error Rate without CRC.
+- `Calculate_Ber_After_CRC(original, received, valid_indices)`: Computes BER after validating blocks with CRC.
 
-## Acknowledgments
-- Supervising professor and university.
-- Open-source libraries and contributors.
-- Hyperspectral image datasets.
+#### Predictor and Huffman Coding
+- `calculate_predictor(image)`: Predicts pixel values based on neighbors for compression.
+- `huffman_encode_bitstring(flat_differences, huffman_tree)`: Encodes differences using Huffman coding.
+- `huffman_decode_bitstring(encoded_data, huffman_tree)`: Decodes Huffman-encoded data.
+
+### GUI Implementation
+
+#### Main Functions
+- `load_image()`: Loads the hyperspectral image `92AV3C.lan`.
+- `create_custom_image()`: Generates a custom 3D image with user-specified dimensions.
+- `run_process()`: Main processing pipeline:
+  - Computes differences using the predictor.
+  - Encodes differences using Huffman, CRC, and/or Hamming based on user selection.
+  - Injects errors and calculates BER before and after correction.
+  - Displays results including BER, compression ratio, and images.
+
+#### Helper Functions
+- `display_images(image, differences, decompressed_image)`: Visualizes original, compressed, and decompressed images.
+- `update_status(message, bold=False)`: Updates the GUI status bar.
+- `log_output(message, ...)`: Logs messages in the GUI.
+
+### Running the GUI
+The GUI provides a user-friendly interface to load images, configure parameters, and view results. Key elements include:
+- Dropdown for selecting CRC usage.
+- Input fields for error rate and custom image dimensions.
+- Buttons for running the process and clearing logs.
+- Status bar for real-time updates.
+
+### Quantitative Results
+- Compression Ratio: Displayed in the GUI log.
+- BER Before and After Correction: Calculated and shown in the log.
+- Time per Pixel: Computed and validated against the 216 ns/pixel requirement.
+
+### Visualization
+- Side-by-side comparison of original, compressed, and decompressed images.
+
+### Final Remarks
+The project integrates source and channel coding techniques to demonstrate effective compression and error correction for hyperspectral sensing. Use the GUI for seamless interaction and analysis.
