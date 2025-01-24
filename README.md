@@ -1,4 +1,4 @@
-![Workflow Diagram](image.png)
+![Workflow Diagram](דיאגרמת בלוקים מפורטת.png)
 
 [![Python](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/release/python-380/)
 [![MIT License](https://img.shields.io/badge/license-MIT-green)](https://opensource.org/licenses/MIT)
