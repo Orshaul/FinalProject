@@ -137,7 +137,9 @@
    pip install -r requirements.txt
   
 2. הורד לתיקייה בה שמור הקוד את התמונה 92AV3C.lan
-
+<p align="center">
+<img src="SpectralCube.png" alt="Workflow Diagram" width="1000">
+</p>
 
 <div dir="rtl">
 
