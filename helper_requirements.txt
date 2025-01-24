@@ -1,0 +1,6 @@
+numpy
+matplotlib
+spectral
+huffman
+tabulate
+tkinter
