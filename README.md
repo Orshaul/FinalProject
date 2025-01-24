@@ -114,7 +114,7 @@
 
 
 
-<div dir="rtl">
+
 
 
 ## יצירת סביבה ב-Python
@@ -142,8 +142,7 @@
 https://www.spectralpython.net/user_guide_intro.html
 <p align="center">
 <img src="SpectralCube.png" alt="Spectral Cube" width="400">
-</p>
-<div dir="rtl">
+
 
 
 ## שימוש והוראות הפעלה
