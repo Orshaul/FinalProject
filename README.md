@@ -1,5 +1,7 @@
 # README
 
+## Final Project: Combined Source and Channel Coding for Hyperspectral Image Compression
+
 ## Introduction
 This project is focused on compressing hyperspectral images using Huffman coding for efficient compression, Hamming (7,4) for error correction, and CRC (Cyclic Redundancy Check) for error detection. The system integrates these coding methods to achieve a high compression ratio while maintaining minimal error rates. The final implementation includes a GUI for easy interaction and visualization.
 
@@ -100,6 +102,10 @@ The GUI provides a user-friendly interface to load images, configure parameters,
 - Time per Pixel: Computed and validated against the 216 ns/pixel requirement.
 
 ### Visualization
+Below is a sample visualization of the process:
+
+![Visualization of Process](https://via.placeholder.com/800x400.png?text=Process+Visualization)
+
 - Side-by-side comparison of original, compressed, and decompressed images.
 
 ### Final Remarks
