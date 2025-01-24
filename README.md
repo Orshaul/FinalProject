@@ -14,7 +14,7 @@
 ביצועי האלגוריתם נבחנו על גבי בסיס נתונים של לווייני חישה מרחוק. 
 <p align="center">
 <img src="Smallerdiagram.png" alt="Workflow Diagram" width="1000">
-</p>
+
 
 ---
 
