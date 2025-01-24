@@ -115,7 +115,7 @@
 ## תוצאה חזותית לדוגמה
 
 <p align="center">
-<img src="results.png" alt="Hyperspectral Image Example" width="700">
+<img src="results.png" alt="Hyperspectral Image Example" width="1000">
 </p>
 
 
