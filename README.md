@@ -93,7 +93,7 @@
 ## תרשים הזרימה של התהליך
 
 <p align="center">
-<img src="diagram.png" alt="Workflow Diagram" width="800">
+<img src="diagram.png" alt="Workflow Diagram" width="1000">
 </p>
 
 
