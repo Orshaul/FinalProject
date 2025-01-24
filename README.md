@@ -126,7 +126,7 @@
 - בדוק שההתקנה בוצעה בהצלחה על ידי הפעלת הפקודה הבאה בטרמינל:
   ```bash
   python --version
-
+<div dir="rtl">
 
 1. התקן את הספריות המופיעות בקובץ: [requirements](requirements.txt)  
 
@@ -138,7 +138,7 @@ https://www.spectralpython.net/user_guide_intro.html
 <p align="center">
 <img src="SpectralCube.png" alt="Spectral Cube" width="400">
 </p>
-
+</div>
 <div dir="rtl">
 
 ## שימוש והוראות הפעלה
