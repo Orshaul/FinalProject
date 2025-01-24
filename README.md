@@ -1,8 +1,10 @@
-![Workflow Diagram](diagram.png)
+
 
 [![Python](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/release/python-380/)
 [![MIT License](https://img.shields.io/badge/license-MIT-green)](https://opensource.org/licenses/MIT)
 [![Status](https://img.shields.io/badge/status-Active-success)](#)
+
+![Workflow Diagram](diagram.png)
 
 # **Combined Source/Channel Coding for Hyperspectral Sensing**
 
