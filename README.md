@@ -16,7 +16,9 @@
 <img src="Smallerdiagram.png" alt="Workflow Diagram" width="1000">
 
 
-
+</p>
+</p>
+</p>
 
 ## מטרות הפרויקט
 
