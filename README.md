@@ -114,6 +114,7 @@
 
 
 
+<div dir="rtl">
 
 
 ## יצירת סביבה ב-Python
@@ -127,7 +128,7 @@
   ```bash
   python --version
 
-<div dir="rtl">
+
 1. התקן את הספריות המופיעות בקובץ: [requirements](requirements.txt)  
 
    ```bash
@@ -164,7 +165,7 @@ https://www.spectralpython.net/user_guide_intro.html
 - **כפתור Clear**:
   - מנקה את חלון הלוג, מאפס את הפרמטרים, ומאפשר התחלה מחדש של התהליך בממשק.
 
-</div>
+
 
 
 ## רישיון
