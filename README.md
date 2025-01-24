@@ -68,7 +68,7 @@
 ## תוצאה חזותית לדוגמה
 
 <p align="center">
-<img src="resultes.png" alt="Hyperspectral Image Example" width="700">
+<img src="results.png" alt="Hyperspectral Image Example" width="700">
 </p>
 
 ---
