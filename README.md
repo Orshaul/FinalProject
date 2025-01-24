@@ -113,12 +113,10 @@
 </p>
 
 
-
-
-
 ## יצירת סביבה ב-Python
 
 כדי להתחיל לעבוד עם הפרויקט, יש ליצור סביבה מותאמת של Python הכוללת את כל הספריות הנדרשות. הנה ההנחיות:
+
 
 ### **התקנת Python**
 - הורד והתקן את גרסת Python המתאימה (3.8 או גרסה גבוהה יותר) מהאתר הרשמי:
@@ -141,7 +139,7 @@
 https://www.spectralpython.net/user_guide_intro.html
 <p align="center">
 <img src="SpectralCube.png" alt="Spectral Cube" width="400">
-
+<div dir="rtl">
 
 ## שימוש והוראות הפעלה
 
