@@ -113,8 +113,7 @@
 </p>
 
 
-
-  <div dir="rtl">
+<div dir="rtl">
 
 
 ## יצירת סביבה ב-Python
