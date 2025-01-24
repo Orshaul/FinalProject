@@ -124,13 +124,13 @@
 ### **התקנת Python**
 - הורד והתקן את גרסת Python המתאימה (3.8 או גרסה גבוהה יותר) מהאתר הרשמי: 
   [Python.org](https://www.python.org/downloads/release/python-380/)
-    <div dir="rtl">
+   
 - בדוק שההתקנה בוצעה בהצלחה על ידי הפעלת הפקודה הבאה בטרמינל:
   ```bash
   python --version
 
 
-
+<div dir="rtl">
 
 1. התקן את הספריות המופיעות בקובץ: [requirements](requirements.txt)  
 
@@ -142,7 +142,7 @@ https://www.spectralpython.net/user_guide_intro.html
 <p align="center">
 <img src="SpectralCube.png" alt="Spectral Cube" width="400">
 </p>
-</div> ```
+</div>
 
 
 ## שימוש והוראות הפעלה
