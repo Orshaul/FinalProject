@@ -128,6 +128,8 @@
   ```bash
   python --version
 
+  <div dir="rtl">
+
 
 1. התקן את הספריות המופיעות בקובץ: [requirements](requirements.txt)  
 
