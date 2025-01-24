@@ -128,8 +128,8 @@
   python --version
 
 
-1. התקן את הספריות המופיעות בקובץ [requirements](requirements.txt)  
-:  
+1. התקן את הספריות המופיעות בקובץ: [requirements](requirements.txt)  
+
    ```bash
    pip install -r requirements.txt
 
