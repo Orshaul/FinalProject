@@ -8,11 +8,11 @@
 # **Combined Source/Channel Coding for Hyperspectral Sensing**
 
 This project is an advanced implementation of **combined source/channel coding** for compressing and error-correcting hyperspectral images. It leverages **Huffman encoding**, **Hamming (7,4)** error correction, and **CRC validation** to achieve high performance in data compression and error correction.
-
+![Workflow Diagram](diagram.png)
 <p align="center">
 <img src="https://via.placeholder.com/800x400?text=Hyperspectral+Image+Compression" alt="Project Visualization" width="70%">
 </p>
-![Workflow Diagram](diagram.png)
+
 
 ---
 
