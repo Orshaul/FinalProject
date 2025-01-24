@@ -4,7 +4,6 @@
 [![MIT License](https://img.shields.io/badge/license-MIT-green)](https://opensource.org/licenses/MIT)
 [![Status](https://img.shields.io/badge/status-Active-success)](#)
 
-![Workflow Diagram](diagram.png)
 
 # **Combined Source/Channel Coding for Hyperspectral Sensing**
 
@@ -13,6 +12,7 @@ This project is an advanced implementation of **combined source/channel coding**
 <p align="center">
 <img src="https://via.placeholder.com/800x400?text=Hyperspectral+Image+Compression" alt="Project Visualization" width="70%">
 </p>
+![Workflow Diagram](diagram.png)
 
 ---
 
