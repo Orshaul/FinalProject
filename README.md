@@ -5,7 +5,7 @@
 [![Status](https://img.shields.io/badge/status-Active-success)](#)
 
 
-# **Combined Source/Channel Coding for Hyperspectral Sensing**
+# **קידוד משולב מקור/ערוץ של חישה היפר-ספקטראלית**
 
 This project is an advanced implementation of **combined source/channel coding** for compressing and error-correcting hyperspectral images. It leverages **Huffman encoding**, **Hamming (7,4)** error correction, and **CRC validation** to achieve high performance in data compression and error correction.
 <p align="center">
