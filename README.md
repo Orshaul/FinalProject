@@ -14,7 +14,7 @@
 רוחב הסרט המוגבל וזמן החליפה הקצר מעל תחנת הקרקע מחייבים **דחיסת מידע בחלל** לפני שידורו לכדור הארץ.  
 מצד שני, דחיסת המידע מגדילה את רגישותו לשגיאות בערוץ ועלולה לגרום לשגיאה קטסטרופלית במהלך הפיענוח.
 <p align="center">
-<img src="diagram.png" alt="Workflow Diagram" width="1000">
+<img src="Smallerdiagram.png" alt="Workflow Diagram" width="1000">
 </p>
 
 ---
