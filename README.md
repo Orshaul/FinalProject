@@ -165,8 +165,5 @@
   - מנקה את חלון הלוג, מאפס את הפרמטרים, ומאפשר התחלה מחדש של התהליך בממשק.
 
 </div>
-
-
-
 ### רישיון
-Licensed under the CC BY-NC-SA 4.0 license, see [LICENSE](./LICENSE).
+הפרויקט מופץ תחת רישיון CC BY-NC-SA 4.0. למידע נוסף ראה [LICENSE](./LICENSE).
