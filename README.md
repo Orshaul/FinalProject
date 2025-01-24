@@ -136,7 +136,7 @@
    ```bash
    pip install -r requirements.txt
   
-
+2. הורד לתיקייה בה שמור הקוד את התמונה 92AV3C.lan
 
 
 <div dir="rtl">
