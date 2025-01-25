@@ -92,13 +92,11 @@
 
 ## תרשים הזרימה של התהליך
 
-<p align="center">
-<img src="diagram.png" alt="Workflow Diagram" width="1000">
-</p>
-
 
 ## תוצאה חזותית לדוגמה
-
+<p align="left">
+<img src="diagram.png" alt="Workflow Diagram" width="1000">
+</p>
 התמונה מציגה שלוש רמות עיבוד על פני חמישה אורכי גל (Bands):
 
 - **מקורית (Original)**: הערוצים המקוריים מתוך התמונה ההיפרספקטרלית.
