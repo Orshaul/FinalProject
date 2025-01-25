@@ -119,8 +119,8 @@
 
 
 ### **התקנת Python**
-
-- הורד והתקן את גרסת Python המתאימה (3.8 או גרסה גבוהה יותר) מהאתר הרשמי [Python.org]: (https://www.python.org/downloads/release/python-380/) <div dir="rtl"> 
+<div dir="rtl"> 
+- הורד והתקן את גרסת Python המתאימה (3.8 או גרסה גבוהה יותר) מהאתר הרשמי [Python.org]: (https://www.python.org/downloads/release/python-380/) 
  
 
    
@@ -131,11 +131,12 @@
 
 
 1. התקן את הספריות המופיעות בקובץ: [requirements](requirements.txt)  
-
+<div dir="rtl"> 
    ```bash
    pip install -r requirements.txt
 
 2. הורד לתיקייה בה שמור הקוד את התמונה 92AV3C.lan (תמונה זו לקוחה מאתר דוקומנטציה של פייתון):
+<div dir="rtl">  
 https://www.spectralpython.net/user_guide_intro.html
 <p align="center">
 <img src="SpectralCube.png" alt="Spectral Cube" width="400">
