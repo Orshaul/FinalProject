@@ -92,6 +92,7 @@
 <p align="center">
 <img src="diagram.png" alt="Workflow Diagram" width="1000">
 </p>
+
 ## תרשים הזרימה של התהליך
 
 
@@ -166,7 +167,7 @@
 
 
 <p align="center"> 
-<img src="" alt="GUI Parameter Window" width="500"> 
+<img src="GUI_Window.png" alt="GUI Parameter Window" width="500"> 
 </p>
 
 ## רישיון
