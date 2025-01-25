@@ -118,34 +118,21 @@
 כדי להתחיל לעבוד עם הפרויקט, יש ליצור סביבה מותאמת של Python הכוללת את כל הספריות הנדרשות. הנה ההנחיות:
 
 
+1. **התקנת Python:**
+   - הורד את Python 3.8 או גרסה חדשה יותר מ-[Python.org](https://www.python.org/downloads/release/python-380/).
+   - בדוק התקנה:
+     ```bash
+     python --version
+     ```
 
+2. **התקנת ספריות:**
+   - התקן את כל התלויות מתוך קובץ `requirements.txt`:
+     ```bash
+     pip install -r requirements.txt
+     ```
 
-### **התקנת Python**  
-
-
-- הורד והתקן את גרסת Python המתאימה (3.8 או גרסה גבוהה יותר) מהאתר הרשמי [Python.org]: (https://www.python.org/downloads/release/python-380/) 
- 
-
-- בדוק שההתקנה בוצעה בהצלחה על ידי הפעלת הפקודה הבאה בטרמינל:
-  <div dir="rtl">
-  ```bash
-
-  python --version
-
-
- 
-1. התקן את הספריות המופיעות בקובץ: [requirements](requirements.txt)  
-
-   ```bash
-
-   pip install -r requirements.txt
-   
-
-2. הורד לתיקייה בה שמור הקוד את התמונה 92AV3C.lan (תמונה זו לקוחה מאתר דוקומנטציה של פייתון):
-https://www.spectralpython.net/user_guide_intro.html
-
-
- 
+3. **הורדת נתונים:**
+   - הורד את קובץ התמונה `92AV3C.lan` מאתר [Spectral Python](https://www.spectralpython.net/user_guide_intro.html) ושמור בתיקיית העבודה.
 
 
 
