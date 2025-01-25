@@ -127,7 +127,7 @@
      ```
 
  **התקנת ספריות:**
-   - התקן את כל התלויות מתוך קובץ `requirements.txt`:
+   - התקן את כל הספריות הנדרשות לפרויקט מתוך קובץ [requirements.txt](./אrequirements.tx) `requirements.txt`:
      ```bash
      pip install -r requirements.txt
      ```
