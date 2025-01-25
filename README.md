@@ -145,6 +145,7 @@ https://www.spectralpython.net/user_guide_intro.html
 <img src="SpectralCube.png" alt="Spectral Cube" width="400">
 </p>
 
+</div>
 
 ## שימוש והוראות הפעלה
 
