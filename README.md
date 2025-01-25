@@ -125,14 +125,17 @@
 
    
 - בדוק שההתקנה בוצעה בהצלחה על ידי הפעלת הפקודה הבאה בטרמינל:
+  
   ```bash
+
   python --version
 
 
-
-1. התקן את הספריות המופיעות בקובץ: [requirements](requirements.txt)  
 <div dir="rtl"> 
+1. התקן את הספריות המופיעות בקובץ: [requirements](requirements.txt)  
+
    ```bash
+
    pip install -r requirements.txt
 
 2. הורד לתיקייה בה שמור הקוד את התמונה 92AV3C.lan (תמונה זו לקוחה מאתר דוקומנטציה של פייתון):
@@ -142,7 +145,7 @@ https://www.spectralpython.net/user_guide_intro.html
 <img src="SpectralCube.png" alt="Spectral Cube" width="400">
 </p>
 
-
+<div dir="rtl"> 
 ## שימוש והוראות הפעלה
 
 ### ממשק משתמש (GUI)
