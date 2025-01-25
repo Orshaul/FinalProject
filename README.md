@@ -165,7 +165,9 @@
   - מנקה את חלון הלוג, מאפס את הפרמטרים, ומאפשר התחלה מחדש של התהליך בממשק.
 
 
-
+<p align="center"> 
+<img src="GUI_Window.png" alt="GUI Parameter Window" width="500"> 
+</p>
 
 ## רישיון
 הפרויקט מופץ תחת רישיון CC BY-NC-SA 4.0. למידע נוסף ראה [LICENSE](./LICENSE).
