@@ -122,7 +122,7 @@
 
 - הורד והתקן את גרסת Python המתאימה (3.8 או גרסה גבוהה יותר) מהאתר הרשמי:
 
-<div dir="rtl">  [Python.org](https://www.python.org/downloads/release/python-380/)
+[Python.org] (https://www.python.org/downloads/release/python-380/) <div dir="rtl">  
    
 - בדוק שההתקנה בוצעה בהצלחה על ידי הפעלת הפקודה הבאה בטרמינל:
   ```bash
