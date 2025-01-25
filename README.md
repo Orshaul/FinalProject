@@ -111,12 +111,12 @@
 <p align="center">
 <img src="results.png" alt="Example Output of Hyperspectral Processing" width="1000">
 </p>
-
+<div dir="rtl">
 
 ## יצירת סביבה ב-Python
 
 כדי להתחיל לעבוד עם הפרויקט, יש ליצור סביבה מותאמת של Python הכוללת את כל הספריות הנדרשות. הנה ההנחיות:
-<div dir="rtl">
+
 
 ### **התקנת Python**
 
@@ -140,6 +140,7 @@
 https://www.spectralpython.net/user_guide_intro.html
 <p align="center">
 <img src="SpectralCube.png" alt="Spectral Cube" width="400">
+</p>
 <div dir="rtl">
 
 ## שימוש והוראות הפעלה
