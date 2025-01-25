@@ -137,9 +137,11 @@
 
    pip install -r requirements.txt
 
-2. הורד לתיקייה בה שמור הקוד את התמונה 92AV3C.lan (תמונה זו לקוחה מאתר דוקומנטציה של פייתון):
+2. הורד לתיקייה בה שמור הקוד את התמונה 92AV3C.lan (תמונה זו לקוחה מאתר דוקומנטציה של פייתון): https://www.spectralpython.net/user_guide_intro.html
 
-https://www.spectralpython.net/user_guide_intro.html
+   
+
+
 <p align="center">
 <img src="SpectralCube.png" alt="Spectral Cube" width="400">
 </p>
