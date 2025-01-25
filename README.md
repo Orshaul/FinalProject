@@ -118,9 +118,9 @@
 כדי להתחיל לעבוד עם הפרויקט, יש ליצור סביבה מותאמת של Python הכוללת את כל הספריות הנדרשות. הנה ההנחיות:
 
 
-</div>
 
-### **התקנת Python**
+
+### **התקנת Python** 
 
 - הורד והתקן את גרסת Python המתאימה (3.8 או גרסה גבוהה יותר) מהאתר הרשמי [Python.org]: (https://www.python.org/downloads/release/python-380/) 
  
@@ -141,7 +141,7 @@
 
 2. הורד לתיקייה בה שמור הקוד את התמונה 92AV3C.lan (תמונה זו לקוחה מאתר דוקומנטציה של פייתון): https://www.spectralpython.net/user_guide_intro.html
 
- </div> `  
+  
 
 
 <p align="center">
