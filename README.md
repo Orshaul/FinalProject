@@ -89,14 +89,14 @@
 - **תצוגת לוג**: הדפסת נתונים ומדדים על מסך הממשק להצגת שלבי התהליך.
 
 
-
+<p align="center">
+<img src="diagram.png" alt="Workflow Diagram" width="1000">
+</p>
 ## תרשים הזרימה של התהליך
 
 
 ## תוצאה חזותית לדוגמה
-<p align="left">
-<img src="diagram.png" alt="Workflow Diagram" width="1000">
-</p>
+
 התמונה מציגה שלוש רמות עיבוד על פני חמישה אורכי גל (Bands):
 
 - **מקורית (Original)**: הערוצים המקוריים מתוך התמונה ההיפרספקטרלית.
