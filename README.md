@@ -119,20 +119,20 @@
 כדי להתחיל לעבוד עם הפרויקט, יש ליצור סביבה מותאמת של Python הכוללת את כל הספריות הנדרשות. הנה ההנחיות:
 
 
-1. **התקנת Python:**
+ **התקנת Python:**
    - הורד את Python 3.8 או גרסה חדשה יותר מ-[Python.org](https://www.python.org/downloads/release/python-380/).
    - בדוק התקנה:
      ```bash
      python --version
      ```
 
-2. **התקנת ספריות:**
+ **התקנת ספריות:**
    - התקן את כל התלויות מתוך קובץ `requirements.txt`:
      ```bash
      pip install -r requirements.txt
      ```
 
-3. **הורדת נתונים:**
+ **הורדת נתונים:**
    - הורד את קובץ התמונה `92AV3C.lan` מאתר [Spectral Python](https://www.spectralpython.net/user_guide_intro.html) ושמור בתיקיית העבודה.
 
 
