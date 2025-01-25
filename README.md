@@ -121,7 +121,7 @@
 
 
 ### **התקנת Python**  
-<div dir="rtl">
+
 
 - הורד והתקן את גרסת Python המתאימה (3.8 או גרסה גבוהה יותר) מהאתר הרשמי [Python.org]: (https://www.python.org/downloads/release/python-380/) 
  
@@ -144,7 +144,7 @@
 2. הורד לתיקייה בה שמור הקוד את התמונה 92AV3C.lan (תמונה זו לקוחה מאתר דוקומנטציה של פייתון):https://www.spectralpython.net/user_guide_intro.html
 
 
-  
+ </div> 
 
 
 
