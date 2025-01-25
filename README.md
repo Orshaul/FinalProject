@@ -166,7 +166,7 @@
 
 
 <p align="center"> 
-<img src="GUI_Window.png" alt="GUI Parameter Window" width="500"> 
+<img src="" alt="GUI Parameter Window" width="500"> 
 </p>
 
 ## רישיון
