@@ -134,14 +134,14 @@
 
 
  
-1.<div dir="rtl"> התקן את הספריות המופיעות בקובץ: [requirements](requirements.txt)  
+1. התקן את הספריות המופיעות בקובץ: [requirements](requirements.txt)  <div dir="rtl">
 
    ```bash
 
    pip install -r requirements.txt
    
 
-2. הורד לתיקייה בה שמור הקוד את התמונה 92AV3C.lan (תמונה זו לקוחה מאתר דוקומנטציה של פייתון):
+2. הורד לתיקייה בה שמור הקוד את התמונה 92AV3C.lan (תמונה זו לקוחה מאתר דוקומנטציה של פייתון):<div dir="rtl">
 https://www.spectralpython.net/user_guide_intro.html
 
 
