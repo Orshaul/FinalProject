@@ -119,21 +119,20 @@
 
 
 ### **התקנת Python**
-<div dir="rtl"> 
+
 - הורד והתקן את גרסת Python המתאימה (3.8 או גרסה גבוהה יותר) מהאתר הרשמי [Python.org]: (https://www.python.org/downloads/release/python-380/) 
  
-
-<div/> 
+<div dir="rtl"> 
 - בדוק שההתקנה בוצעה בהצלחה על ידי הפעלת הפקודה הבאה בטרמינל:
   
   ```bash
 
   python --version
-
+<div dir="rtl"> 
 
  
 1. התקן את הספריות המופיעות בקובץ: [requirements](requirements.txt)  
-
+<div dir="rtl"> 
    ```bash
 
    pip install -r requirements.txt
