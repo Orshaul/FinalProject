@@ -119,8 +119,9 @@
 
 
 
-<div dir="rtl">
+
 ### **התקנת Python**  
+<div dir="rtl">
 
 - הורד והתקן את גרסת Python המתאימה (3.8 או גרסה גבוהה יותר) מהאתר הרשמי [Python.org]: (https://www.python.org/downloads/release/python-380/) 
  
@@ -130,7 +131,7 @@
   ```bash
 
   python --version
-
+<div dir="rtl">
 
  
 1. התקן את הספריות המופיעות בקובץ: [requirements](requirements.txt)  
