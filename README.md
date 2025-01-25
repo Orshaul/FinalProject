@@ -134,7 +134,7 @@
 
 
  
-1. התקן את הספריות המופיעות בקובץ: [requirements](requirements.txt)  
+1.<div dir="rtl"> התקן את הספריות המופיעות בקובץ: [requirements](requirements.txt)  
 
    ```bash
 
@@ -143,7 +143,7 @@
 
 2. הורד לתיקייה בה שמור הקוד את התמונה 92AV3C.lan (תמונה זו לקוחה מאתר דוקומנטציה של פייתון):
 https://www.spectralpython.net/user_guide_intro.html
-<div dir="rtl">
+
 
  
 
