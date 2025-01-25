@@ -119,7 +119,7 @@
 
 
 
-
+<div dir="rtl">
 ### **התקנת Python** 
 
 - הורד והתקן את גרסת Python המתאימה (3.8 או גרסה גבוהה יותר) מהאתר הרשמי [Python.org]: (https://www.python.org/downloads/release/python-380/) 
@@ -143,6 +143,7 @@
 
   
 
+</div>
 
 <p align="center">
 <img src="SpectralCube.png" alt="Spectral Cube" width="400">
