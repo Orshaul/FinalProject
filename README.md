@@ -112,7 +112,7 @@
 <img src="results.png" alt="Example Output of Hyperspectral Processing" width="1000">
 </p>
 
-
+<div dir="rtl" align="right">
 ## יצירת סביבה ב-Python
 
 כדי להתחיל לעבוד עם הפרויקט, יש ליצור סביבה מותאמת של Python הכוללת את כל הספריות הנדרשות. הנה ההנחיות:
