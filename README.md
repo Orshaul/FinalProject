@@ -128,11 +128,11 @@
   ```bash
 
   python --version
-<div dir="rtl"> 
+
 
  
 1. התקן את הספריות המופיעות בקובץ: [requirements](requirements.txt)  
-<div dir="rtl"> 
+
    ```bash
 
    pip install -r requirements.txt
@@ -142,7 +142,7 @@
 https://www.spectralpython.net/user_guide_intro.html
 <p align="center">
 <img src="SpectralCube.png" alt="Spectral Cube" width="400">
-</p>
+</p></div>
 
 
 ## שימוש והוראות הפעלה
