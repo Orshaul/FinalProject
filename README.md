@@ -111,7 +111,7 @@
 <p align="center">
 <img src="results.png" alt="Example Output of Hyperspectral Processing" width="1000">
 </p>
-<div dir="rtl">
+
 
 ## יצירת סביבה ב-Python
 
@@ -121,13 +121,12 @@
 ### **התקנת Python**
 
 - הורד והתקן את גרסת Python המתאימה (3.8 או גרסה גבוהה יותר) מהאתר הרשמי:
-
+<div dir="rtl">
   [Python.org](https://www.python.org/downloads/release/python-380/)
    
 - בדוק שההתקנה בוצעה בהצלחה על ידי הפעלת הפקודה הבאה בטרמינל:
   ```bash
   python --version
-
 
 
 
